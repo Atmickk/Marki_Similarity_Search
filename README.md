@@ -12,7 +12,7 @@ docker run --rm -p 7860:7860 metric-retrieval
 Open:
 
 - http://127.0.0.1:7860/docs
-- http://<server-ip>:7860/docs
+- http://YOUR_SERVER_IP:7860/docs
 
 ## Quick Start (Local)
 
