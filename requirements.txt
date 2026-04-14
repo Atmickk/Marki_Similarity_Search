@@ -1,0 +1,25 @@
+# Runtime + tooling requirements for the metric-learning retrieval service
+# Python: 3.11 recommended (matches the provided Dockerfiles)
+
+fastapi>=0.110
+uvicorn[standard]>=0.23
+python-multipart>=0.0.9
+
+numpy>=1.26
+pillow>=10.0
+
+# FAISS Python wheels (CPU). For GPU FAISS, install separately.
+faiss-cpu>=1.8.0
+
+# Model inference
+torch>=2.2
+torchvision>=0.17
+
+# Index-building script dependencies (optional at runtime)
+pandas>=2.0
+tqdm>=4.66
+
+# DINOv2 hub models may require these depending on torch hub resolution
+# (harmless if unused)
+timm>=0.9
+einops>=0.7

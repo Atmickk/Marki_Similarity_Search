@@ -1,0 +1,2 @@
+# Deployment dependencies used by the Dockerfiles
+-r requirements.txt
