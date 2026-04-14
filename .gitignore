@@ -10,7 +10,8 @@ env/
 .venv/
 
 # Model checkpoints
-checkpoints/
+checkpoints/*
+!checkpoints/*.pth
 !checkpoints/.gitkeep
 
 # Embeddings
