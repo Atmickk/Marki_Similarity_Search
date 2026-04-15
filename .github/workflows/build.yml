@@ -24,3 +24,4 @@ jobs:
           context: .
           push: true
           tags: atmick/metric-learning:latest
+
